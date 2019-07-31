@@ -9,3 +9,7 @@ https://friend-finder-73019.herokuapp.com/
 
 
 10 questions your choosing from to determine the most compatible friend.
+
+
+<img width="584" alt="Screen Shot 2019-07-30 at 11 22 26 PM" src="https://user-images.githubusercontent.com/49299319/62188392-0fb00f80-b321-11e9-85dc-dfe3bf634f1e.png">
+
