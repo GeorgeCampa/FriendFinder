@@ -4,7 +4,7 @@ var friends = [
     {
         name: "Cersei Lannister,",
         photo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Cersei_Lannister_in_Black_Dress_in_Season_5.jpg/220px-Cersei_Lannister_in_Black_Dress_in_Season_5.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 2]
+        scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
     {
         name: "Jiame Lanister,",
@@ -24,8 +24,8 @@ var friends = [
     {
         name: "Missandei,",
         photo: "https://i.pinimg.com/originals/d7/bf/a2/d7bfa2ef57f5aa9b5ceafa9e8ef09b1c.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 4]
-    },
+        scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+    }
 ];
 
 module.export = friends; 

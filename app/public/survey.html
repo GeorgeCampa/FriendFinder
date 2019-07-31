@@ -38,7 +38,7 @@
         <h3><strong>Question 1</strong></h3>
         <h4>You are always finding ways to have fun?</h4>
         <select data-placeholder="" class="chosen-select" id="q1">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -49,7 +49,7 @@
         <h3><strong>Question 2</strong></h3>
         <h4>You do you work hard and play hard? </h4>
         <select data-placeholder="" class="chosen-select" id="q2">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -60,7 +60,7 @@
         <h3><strong>Question 3</strong></h3>
         <h4>I like taking risks and challenges?</h4>
         <select data-placeholder="" class="chosen-select" id="q3">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -71,7 +71,7 @@
         <h3><strong>Question 4</strong></h3>
         <h4>Do you like animals?</h4>
         <select data-placeholder="" class="chosen-select" id="q4">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -82,7 +82,7 @@
         <h3><strong>Question 5</strong></h3>
         <h4>Would you compromise your happiness for the success of the relationship?</h4>
         <select data-placeholder="" class="chosen-select" id="q5">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -93,7 +93,7 @@
         <h3><strong>Question 6</strong></h3>
         <h4>Can you avoid flirting if someone attractive flirts with you when I’m not around?</h4>
         <select data-placeholder="" class="chosen-select" id="q6">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -104,7 +104,7 @@
         <h3><strong>Question 7</strong></h3>
         <h4> Is it fine for a partner to use the toilet with the door open?</h4>
         <select data-placeholder="" class="chosen-select" id="q7">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -115,7 +115,7 @@
         <h3><strong>Question 8</strong></h3>
         <h4> Would you feel insecure if I spent a lot of time at work?</h4>
         <select data-placeholder="" class="chosen-select" id="q8">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -126,7 +126,7 @@
         <h3><strong>Question 9</strong></h3>
         <h4>Can you depend on this person?</h4>
         <select data-placeholder="" class="chosen-select" id="q9">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -137,7 +137,7 @@
         <h3><strong>Question 10</strong></h3>
         <h4>Would you be open to disclosing all your health issues to me all the time?</h4>
         <select data-placeholder="" class="chosen-select" id="q10">
-            <option value=""selected>(Select an option)</option>
+            <option value="" selected>(Select an option)</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -177,6 +177,7 @@
         </div>
     </div>
 
+
     <script type="text/javascript">
         $("#submit").on("click", function () {
             function validateForm() {
@@ -184,6 +185,7 @@
                 $(".form-control").each(function () {
                     if ($(this).val() === "") isValid = false;
                 });
+                
                 $(".chosen-select").each(function () {
                     if ($(this).val() === "") isValid = false;
                 });
